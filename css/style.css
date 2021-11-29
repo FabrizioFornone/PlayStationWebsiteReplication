@@ -1,0 +1,307 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utility Classes */
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container img,
+.container h2,
+.container p {
+  padding-left: 0;
+}
+
+section .text-primary {
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.bg-darkblue {
+  background: rgb(21, 21, 43);
+}
+
+.bg-blue {
+  background: #00439c;
+}
+
+.bg-grey {
+  background: #c1bdbc;
+}
+
+/* Buttons */
+
+.btn {
+  border: 2px solid transparent;
+  color: #fff;
+  padding: 0.27rem 0.75rem;
+  line-height: 1;
+  border-radius: 25px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-btn {
+  background: #191a19;
+  padding: ;
+}
+
+.btn-blue {
+  background-color: #0d6efd;
+}
+
+.btn-orange {
+  background-color: #d63d00;
+}
+
+.btn-grey {
+  background-color: rgba(220, 222, 224, 0.9);
+  color: #0d6efd;
+}
+
+.btn-white {
+  background: whitesmoke;
+  color: #000;
+}
+
+.nav-btn:active,
+.nav-btn:focus,
+.nav-btn:active:focus,
+.btn-orange:active,
+.btn-orange:focus,
+.btn-orange:active:focus,
+.btn-grey:active,
+.btn-grey:focus,
+.btn-grey:active:focus {
+  background-image: none;
+  background: #0d6efd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav-btn:hover,
+.btn-orange:hover,
+.btn-grey:hover {
+  background: #0d6efd;
+  box-shadow: inset 0px 0px 0px 2px #191a19;
+}
+
+.btn-blue:active,
+.btn-blue:focus,
+.btn-blue:active:focus
+.btn-white:active,
+.btn-white:focus,
+.btn-white:active:focus {
+  background-image: none;
+  background: #d63d00;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-blue:hover,
+.btn-white:hover {
+  background: #d63d00;
+  box-shadow: inset 0px 0px 0px 2px #000;
+}
+
+/* header */
+
+header {
+  background: #191a19;
+}
+
+header img {
+  width: 75px;
+  padding-right: 5px;
+}
+/* Navbar */
+
+.navbar-custom {
+  padding: 0;
+  font-size: 15px;
+}
+
+.dropdown-toggle::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  font-size: 10px;
+  vertical-align: middle;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  display: inline;
+  color: silver;
+}
+
+.lens-li a {
+  display: inline-block;
+}
+
+.lens-li a img {
+  width: 25px;
+}
+
+.lens-li .form-control {
+  width: 50%;
+  line-height: 1;
+}
+
+#search-bar-hide {
+  display: inline-block;
+}
+
+.dropdown-item {
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background: none;
+}
+
+.dropdown-item img {
+  width: 60%;
+}
+
+.dropdown-item i {
+  padding-left: 5px;
+  color: #0d6efd;
+}
+
+.dropdown-item a {
+  color: #000;
+  padding-right: 5px;
+}
+
+/*Nav Toggler mode padding left */
+
+.navbar-custom .nav-link {
+  padding-left: 5px;
+}
+
+.nav-btn {
+  margin-left: 5px;
+}
+
+/* Jumbotron + It Takes Two Section */
+
+.jumbo .container,
+.jumbo .jumbo-inside,
+.it_takes_two .container,
+.it_takes_two .jumbo-inside {
+  height: 100%;
+}
+
+.jumbo {
+  background: url("../img/jumbo-bg.png") center;
+  background-size: cover;
+  height: calc(100vh - 88.31px);
+  margin-top: 88.31px;
+}
+
+.it_takes_two {
+  background: url("../img/it-takes-two-hero-banner-desktop.jpg") center;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* Secion one */
+
+.moving-imgs img {
+  border-radius: 20px;
+  padding: 3px;
+  border: 2px solid transparent;
+  position: relative;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.moving-imgs a:hover img {
+  border-color: #0d6efd;
+  top: -10px;
+}
+
+/* Overlay animation */
+
+.overlay {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  border-bottom: 2px solid transparent;
+}
+
+.overlay:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.2;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* Id Imgs */
+#img-returnal,
+#img-play-plus,
+#img-play-now {
+  max-width: 70%;
+}
+
+#img-it_takes_two {
+  max-width: 60%;
+}
+
+#sie {
+  width: 100px;
+}
+
+/* Footer */
+
+#globe::before {
+  content: "\f0ac";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+#copyright::before {
+  content: "\f1f9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0 5px;
+}
+
+/* Media Queries */
+
+/* Media Queries for Jumbo + It Takes Two */
+
+@media (min-width: 992px) {
+  .nav-btn {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  #search-bar-hide {
+    display: none;
+  }
+
+  .jumbo-inside p,
+  .jumbo-inside h2 {
+    max-width: 30%;
+  }
+
+  #img-returnal {
+    max-width: 25%;
+  }
+
+  #img-it_takes_two {
+    max-width: 20%;
+  }
+}
