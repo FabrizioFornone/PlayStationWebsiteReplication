@@ -50,7 +50,7 @@ section .text-primary {
 
 .nav-btn {
   background: #191a19;
-  padding: ;
+  margin-left: 5px;
 }
 
 .btn-blue {
@@ -188,10 +188,6 @@ header img {
 
 .navbar-custom .nav-link {
   padding-left: 5px;
-}
-
-.nav-btn {
-  margin-left: 5px;
 }
 
 /* Jumbotron + It Takes Two Section */
